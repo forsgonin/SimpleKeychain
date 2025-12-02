@@ -40,7 +40,7 @@ jobs:
 
         steps:
             - name: Checkout
-              uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+              uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3
 
             - name: Set up environment
               uses: ./.github/actions/setup
@@ -75,7 +75,7 @@ jobs:
 
         steps:
             - name: Checkout
-              uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+              uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3
 
             - name: Set up environment
               uses: ./.github/actions/setup
@@ -96,7 +96,7 @@ jobs:
 
         steps:
             - name: Checkout
-              uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+              uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3
 
             - name: Set up environment
               uses: ./.github/actions/setup
@@ -112,7 +112,7 @@ jobs:
 
         steps:
             - name: Checkout
-              uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+              uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3
 
             - name: Run SwiftLint
               run: swiftlint lint --reporter github-actions-logging
